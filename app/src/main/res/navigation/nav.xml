@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/page_main">
+
+    <fragment
+        android:id="@+id/page_main"
+        android:name="com.example.finalappsmoviles_reforaccion.MainFragment"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/page_tips"
+        android:name="com.example.finalappsmoviles_reforaccion.TipsFragment"
+        tools:layout="@layout/fragment_tips" />
+    <fragment
+        android:id="@+id/page_statistics"
+        android:name="com.example.finalappsmoviles_reforaccion.StatisticsFragment"
+        tools:layout="@layout/fragment_statistics" />
+
+</navigation>
